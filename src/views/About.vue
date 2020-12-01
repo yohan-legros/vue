@@ -1,6 +1,6 @@
 <template>
   <div class="aboutp">
-    <navbar/>
+    
     <div class="header">
       <div class="titre">
         <h1>About Us</h1>
@@ -73,18 +73,17 @@ if you have any advice to give me to make it better i will always listen to the 
     </p>
     
     
-    <fouter/>
+    
 
   </div>
 </template>
 
 <script>
-import navbar from "../components/navbar.vue";
-import fouter from "../components/fouter.vue";
+
 
 export default {
  components: {
-    navbar,fouter
+    
   }
 }
 </script>

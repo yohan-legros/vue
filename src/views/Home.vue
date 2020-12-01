@@ -1,32 +1,25 @@
 <template>
   <div class="home">
-    <navbar/>
+   
     <div class="header">
       <div class="titre">
        <h1>Welcome to Yume-LODY</h1>
       </div>
     </div>
-    <about/>
-    <week/>
-    <abonnement/>
-    <newsletter/>
-    <fouter/>
+
+  
+   
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import navbar from "../components/navbar.vue";
-import about from "../components/about.vue";
-import week from "../components/week.vue";
-import abonnement from "../components/abonnement.vue";
-import newsletter from "../components/newsletter.vue";
-import fouter from "../components/fouter.vue";
+
 
 export default {
   name: 'Home',
   components: {
-    navbar,about,week,abonnement,newsletter,fouter
+    
   }
 }
 </script>

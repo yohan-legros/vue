@@ -1,26 +1,24 @@
 <template>
 <div class="test"> 
-    <navbar/>
+    
     <div class="header">
         <h1> <em>Gallery</em> </h1>
     </div>
-    <gall/>
+ 
 
-    <fouter/>
+   
 
 </div>
   
 </template>
 
 <script>
-import navbar from "../components/navbar.vue";
-import fouter from "../components/fouter.vue";
-import gall from "../components/gall.vue";
+
 
 export default {
     name:"Gallery",
      components: {
-    navbar,fouter,gall
+    
     }
     
 
