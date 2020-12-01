@@ -1,6 +1,6 @@
 <template>
   <div class="test">
-      <navbar/>
+    
       <div class="header">
           <img src="../assets/challenge.gif" alt="">
       </div>
@@ -36,18 +36,15 @@
                <b-button href="/condition" class="co">postuler</b-button>
             </b-card>
       </div>
-      <fouter/>
+    
   </div>
 </template>
 
 <script>
-import navbar from "../components/navbar.vue";
-import fouter from "../components/fouter.vue";
 
 export default {
 name:"Challenge",
  components: {
-    navbar,fouter
     },
     created() {
     this.axios
