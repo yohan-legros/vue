@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import challenge from '../components/challenge.vue'
+
 
 
 
@@ -12,6 +14,11 @@ const routes = [
     path: '/',
     name: 'Acceuille',
     component: Home
+  },
+  {
+    path: '/challenge',
+    name: 'challenge',
+    component: challenge
   },
 
 ]
