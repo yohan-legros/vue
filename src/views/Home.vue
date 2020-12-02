@@ -6,6 +6,7 @@
        <h1>Welcome to Yume-LODY</h1>
       </div>
     </div>
+    <abonnement/>
 
   
    
@@ -14,11 +15,12 @@
 
 <script>
 // @ is an alias to /src
-
+import abonnement from '../components/abonnement.vue'
 
 export default {
   name: 'Home',
   components: {
+    abonnement,
     
   }
 }
